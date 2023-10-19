@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/favicon.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Marley´s Petshop</title>
+</head>
+
+<body>
+    <main>
+        <!-- Menú Principal -->
+        <header>
+            <div class="container">
+                <nav class="navbar navbar-expand-lg navbar-light">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href="/index.html">
+                            <img src="img/logo-marley-pet.png" alt="logo Marley´s Petshop" class="w-25">
+                        </a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#MenuPrincipal" aria-controls="MenuPrincipal" aria-expanded="false"
+                            aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="MenuPrincipal">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                <li class="nav-item">
+                                    <a class="nav-link fw-bold" aria-current="page" href="#">Inicio</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link fw-bold" href="./secciones/nosotros.html">Nosotros</a>
+                                </li>
+                                <li class="nav-item dropdown fw-bold">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                        Productos
+                                    </a>
+                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <li><a class="dropdown-item" href="./secciones/productos-gatos.html">Espacio Gatuno</a></li>
+                                        <li><a class="dropdown-item" href="./secciones/productos-perros.html">Espacio Perruno</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <form class="d-flex">
+                                <input class="form-control" type="search" placeholder="Encuentra tu producto"
+                                    aria-label="Search">
+                                <button class="btn" type="submit">Buscar</button>
+                            </form>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </header>
+        <!-- Sliders -->
+        <section class="home-banners">
+            <div id="CarouselHome" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="img/banner-principal.png" class="d-block w-100" alt="banner petshop">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/banner-principal-perro.png" class="d-block w-100" alt="banner ofertas petshop">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#CarouselHome" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Anterior</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#CarouselHome" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Siguiente</span>
+                </button>
+            </div>
+        </section>
+
+        <!-- Seccion alimentos Gato -->
+        <section class="home-products">
+            <div class="container">
+                <h1 class="home-title text-center mb-4">Alimentos Premium gato</h1>
+                <div class="row justify-content-center text-center align-items-center">
+
+                    <div class="col-6 col-lg-3">
+                        <div class="card-product">
+                            <img src="img/royal-canin-fit.png" alt="Alimento Fit gatos" class="w-100">
+                            <h2 class="card-product-title">Alimento Fit gatos</h2>
+                            <h3 class="card-product-brand">Royal Canin</h3>
+                            <span class="card-product-price fw-bold">19.990</span>
+                            <button type="button" class="btn btn-primary btn-sm">Comprar</button>
+                        </div>
+                    </div>
+                    <div class="col-6 col-lg-3">
+                        <div class="card-product">
+                            <img src="img/royal-canin-indoor.png" alt="Alimento Indoor gatos" class="w-100">
+                            <h2 class="card-product-title">Alimento Indoor gatos</h2>
+                            <h3 class="card-product-brand">Royal Canin</h3>
+                            <span class="card-product-price fw-bold">18.990</span>
+                            <button type="button" class="btn btn-primary btn-sm">Comprar</button>
+                        </div>
+                    </div>
+                    <div class="col-6 col-lg-3">
+                        <div class="card-product">
+                            <img src="img/royal-canin-kitten.png" alt="Alimento Kitten gatos" class="w-100">
+                            <h2 class="card-product-title">Alimento Kitten gatos</h2>
+                            <h3 class="card-product-brand">Royal Canin</h3>
+                            <span class="card-product-price fw-bold">19.990</span>
+                            <button type="button" class="btn btn-primary btn-sm">Comprar</button>
+                        </div>
+                    </div>
+                    <div class="col-6 col-lg-3">
+                        <div class="card-product">
+                            <img src="img/royal-canin-light.png" alt="Alimento Light gatos" class="w-100">
+                            <h2 class="card-product-title">Alimento Light gatos</h2>
+                            <h3 class="card-product-brand">Royal Canin</h3>
+                            <span class="card-product-price fw-bold">18.990</span>
+                            <button type="button" class="btn btn-primary btn-sm">Comprar</button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <!-- Sección info -->
+        <section class="home-info">
+            <div class="container">
+                <div class="row justify-content-center align-items-center text-center g-3">
+                    <div class="col-lg-3 col-12">
+                        <i class="fas fa-truck"></i>
+                        <h4 class="home-info_title fw-bold">Envío rápido</h4>
+                        <span class="home-info_text">Realizamos despacho en 24 hrs.</span>
+                    </div>
+                    <div class="col-lg-3 col-12">
+                        <i class="fas fa-headset"></i>
+                        <h4 class="home-info_title fw-bold">Habla con expertos</h4>
+                        <span class="home-info_text">Llamanos al <a href="tel:+99292992"
+                                class="home-info_enlace">+99292992</a></span>
+                    </div>
+                    <div class="col-lg-3 col-12">
+                        <i class="fas fa-clock"></i>
+                        <h4 class="home-info_title fw-bold">Nuestro horario</h4>
+                        <span class="home-info_text">Atendemos de 09 a 19:00 hrs.</span>
+                    </div>
+                    <div class="col-lg-3 col-12">
+                        <i class="fas fa-store"></i>
+                        <h2 class="home-info_title fw-bold">Retiro en tienda</h2>
+                        <span class="home-info_text">Vísitanos y retira gratis</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seccion alimentos perro -->
+        <section class="home-products">
+            <div class="container">
+                <h2 class="home-title text-center mb-4">Alimentos Premium perro</h2>
+                <div class="row justify-content-center text-center align-items-center">
+
+                    <div class="col-6 col-lg-3">
+                        <div class="card-product">
+                            <img src="img/pro-plan-carne.png" alt="alimento pro plan gatito" class="w-100">
+                            <h2 class="card-product-title">Alimento perro adulto carne </h2>
+                            <h3 class="card-product-brand">Pro Plan</h3>
+                            <span class="card-product-price fw-bold">19.990</span>
+                            <button type="button" class="btn btn-primary btn-sm">Comprar</button>
+                        </div>
+                    </div>
+                    <div class="col-6 col-lg-3">
+                        <div class="card-product">
+                            <img src="img/pro-plan-pollo.png" alt="alimento pro plan gatito" class="w-100">
+                            <h2 class="card-product-title">Alimento perro adulto pollo </h2>
+                            <h3 class="card-product-brand">Pro Plan</h3>
+                            <span class="card-product-price fw-bold">18.990</span>
+                            <button type="button" class="btn btn-primary btn-sm">Comprar</button>
+                        </div>
+                    </div>
+                    <div class="col-6 col-lg-3">
+                        <div class="card-product">
+                            <img src="img/pro-plan-raza-p.png" alt="alimento pro plan gatito" class="w-100">
+                            <h2 class="card-product-title">Alimento perro raza pequeña</h2>
+                            <h3 class="card-product-brand">Pro Plan</h3>
+                            <span class="card-product-price fw-bold">19.990</span>
+                            <button type="button" class="btn btn-primary btn-sm">Comprar</button>
+                        </div>
+                    </div>
+                    <div class="col-6 col-lg-3">
+                        <div class="card-product">
+                            <img src="img/pro-plan-sensitive.png" alt="alimento pro plan gatito" class="w-100">
+                            <h2 class="card-product-title">Alimento perro sensitive</h2>
+                            <h3 class="card-product-brand">Pro Plan</h3>
+                            <span class="card-product-price fw-bold">18.990</span>
+                            <button type="button" class="btn btn-primary btn-sm">Comprar</button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- sección blog -->
+        <section class="home-blog">
+            <div class="container">
+                <h5 class="home-blog-title fw-bold text-center">Datos y contenido para tu mascota</h5>
+                <div class="card-blog mb-3">
+                    <div class="row align-items-center justify-content-center g-3 p-3">
+                        <div class="col-md-5">
+                            <img src="img/banner-gato.png" class="img-fluid rounded"
+                                alt="Actividades y juegos para gatos">
+                        </div>
+                        <div class="col-md-7">
+                            <div class="card-blog_text">
+                                <h5 class="blog-title">Actividades y juegos para gatos</h5>
+                                <p class="blog-text">¿Cómo educar a un gato para que no haga travesuras cuando no te
+                                    encuentras en casa? Pues bien, más vale darle entretenimiento de sobra. Los felinos
+                                    mantienen sus uñas al rascar, por lo que todo gato necesita rascadores. Si no te
+                                    gusta que tu minino escale por las
+                                    estanterías o se suba a los muebles, cómprale un árbol para gatos.</p>
+                                <p class="blog-text">Esconde pequeñas golosinas o juguetes para mantener a tu gato en
+                                    movimiento y estimular su mente, lo cual es de gran importancia, ya que el gato es
+                                    propenso a obsesionarse con comportamientos
+                                    repetitivos cuando está aburrido, como abrir y cerrar la llave del grifo, o encender
+                                    y apagar la luz sin fin..</p>
+                                <p class="card-text"><small class="text-muted">Creado el 10 de Octubre 2023</small></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-blog mb-3">
+                    <div class="row d-flex flex-row-reverse align-items-center justify-content-center g-3 p-3">
+                        <div class="col-md-5">
+                            <img src="img/banner-perro.png" class="img-fluid rounded"
+                                alt="El pasatiempo preferido de los perros">
+                        </div>
+                        <div class="col-md-7">
+                            <div class="card-blog_text">
+                                <h5 class="blog-title">El pasatiempo preferido de los perros</h5>
+                                <p class="blog-text">Tan diferentes como nuestros perros son, sin embargo todos ellos
+                                    pertenecen a la misma especie. Y todos tienen una gran cantidad de rasgos que
+                                    comparten y que determinan la actividad básica cotidiana. Para saber qué son, qué es
+                                    lo que le gusta más al perro, hay una frase muy importante: Perros son depredadores,
+                                    territoriales y muy sociales.</p>
+                                <p class="blog-text">La alimentación como evento
+                                    Independientemente de la raza, en todos los perros yace un depredador. Los perros
+                                    tienen una buena nariz y pueden buscar objetos o seres. Sus mandíbulas son fuertes
+                                    con las que pueden desgarrar y masticar su presa. En la naturaleza, buscar comida
+                                    consume una gran parte del día. Olfatear y masticar es, por lo tanto, una ocupación
+                                    central.</p>
+                                <p class="card-text"><small class="text-muted">Creado el 7 de Octubre 2023</small></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+    </main>
+    <!-- footer -->
+    <div class="footer">
+        <div class="container">
+            <div class="row justify-content-center align-items-center">
+                <div class="col-md-4 col-xs-12">
+                    <div class="menu-footer">
+                        <h6 class="menu-footer-title">Marly´s Petshop</h6>
+                        <ul>
+                            <li><a class="menu-footer-item" href="#">Sucursales</a></li>
+                            <li><a class="menu-footer-item" href="#">Horarios</a></li>
+                            <li><a class="menu-footer-item" href="#">Despachos</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-xs-12">
+                    <div class="menu-footer">
+                        <h6 class="menu-footer-title">Productos</h6>
+                        <ul>
+                            <li><a class="menu-footer-item" href="./secciones/productos-perros.html">Espacio Perruno</a></li>
+                            <li><a class="menu-footer-item" href="./secciones/productos-gatos.html">Espacio Gatuno</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-xs-12">
+                    <div class="menu-footer">
+                        <h6 class="menu-footer-title">Contacto</h6>
+                        <ul>
+                            <li><i class="fas fa-phone icon-footer"></i> hola@marleyspet.com</li>
+                            <li><i class="fas fa-mobile icon-footer"></i>+99292992 </li>
+                            <li><i class="fas fa-map-marker-alt icon-footer"></i> Santiago, Chile </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+            crossorigin="anonymous"></script>
+</body>
+
+</html>
