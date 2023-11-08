@@ -1,0 +1,17 @@
+.banner-productos-perros {
+    background-image: url(../img/banner-perritos.jpg);
+    background-size: cover;
+    height: 50vh;
+    background-position: top;
+}
+.banner-product__title{
+    font-size: 1.6rem;
+    padding-top: 0.9rem;
+    font-weight: 700;
+}
+
+@media (min-width: 992px) {
+    .banner-productos-perros {
+        height: 80vh;
+    }
+}

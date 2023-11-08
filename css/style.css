@@ -1,187 +1,215 @@
 :root {
---color-bold-gray:#4f5966;
---color-light-gray:#6A788A;
---color-spa:#9fb7b7;
---background-light:#FFF;
---color-light-pink:#f6dcd7;
---color-bold-pink:#e9b8ac;
+  --color-bold-gray:#4f5966;
+  --color-light-gray:#6A788A;
+  --color-spa:#9fb7b7;
+  --background-light:#FFF;
+  --color-light-pink:#f6dcd7;
+  --color-bold-pink:#e9b8ac;
 }
 
-body{
-    background-color: var(--background-light);
-    font-family: 'Inter', sans-serif;
-    color: var(--color-bold-gray);
+body {
+  background-color: var(--background-light);
+  font-family: "Inter", sans-serif;
+  color: var(--color-bold-gray);
 }
+
 ul,
 ol {
-    list-style-type: none;
-}
-.form-control{
-    font-size: 0.8rem;
-}
-.navbar-toggler {
-    font-size: 1rem;
-}
-.nav-item {
-    font-size: 0.9rem;
-}
-.dropdown-item {
-    font-size: 0.8rem;
-}
-.home-products {
-    padding-top: 3rem;
-}
-.home-title {
-    font-size: 1.5rem;
-    font-weight: 700;
-}
-.card-product {
-    margin-bottom: 3rem;
-}
-
-.card-product-title {
-    font-size: 0.9rem;
-    font-weight: 600;
-}
-.card-product-brand {
-    font-size: 0.7rem;
-    color: var(--color-spa);
-    font-weight: 600;
-}
-.card-product-price{
-    display: block;
-    font-size: 0.9rem;
-    color: var(--color-light-gray);
-}
-
-.btn-primary{
-    margin-right: auto;
-    margin-left: auto;
-    display: block;
-    background: var(--color-bold-pink);
-    border-color: var(--color-light-pink);
-    color: #fff;
-    font-weight: 500;
-    font-size: 0.8rem;
-}
-.btn-primary:hover{
-    background: var(--color-light-pink);
-    color: var(--color-bold-gray);
-    border-color: var(--color-bold-pink);
-}
-.home-info {
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-    background: #f7f7f7;
-    margin-top: 4rem;
-}
-.fa, .fas {
-    font-weight: 900;
-    font-size: 1.5rem;
-    color: var(--color-bold-pink);
-}
-.home-info_title {
-    font-size: 0.9rem;
-    color: var(--color-spa);
-}
-
-.home-info_text {
-    font-size: 0.7rem;
-    color: var(--color-bold-pink);
-    font-weight: 600;
-    display: block;
-    line-height: 12px;
-}
-.home-info_enlace{
-    font-size: 0.7rem;
-    color: var(--color-bold-pink);
-    font-weight: 600; 
-}
-
-.home-blog {
-    padding-top: 4rem;
-    padding-bottom: 4rem;
-}
-.home-blog-title {
-    font-size: 1.7rem;
-}
-.card-blog {
-    border: 1px solid var(--color-light-pink);
-    border-radius: 10px;
-}
-.blog-text {
-    font-size: 0.9rem;
-    text-align: justify;
+  list-style-type: none;
 }
 
 .footer {
-    background: var(--color-light-gray);
-    color: #fff;
-    font-weight: 500;
-    padding-top: 2rem;
-    padding-bottom: 1rem;
+  background: var(--color-light-gray);
+  color: #fff;
+  font-weight: 500;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
 }
-.menu-footer-item{
-    color:#fff;
-    text-decoration: none;
+
+.menu-footer-item {
+  color: #fff;
+  text-decoration: none;
 }
-.menu-footer-item:hover{
-    text-decoration: underline;
+
+.menu-footer-item:hover {
+  text-decoration: underline;
 }
 
 .icon-footer {
-    font-size: 1rem;
-    padding-right: 5px;
-}
-
-.banner-productos-perros {
-    background-image: url(../img/banner-perritos.jpg);
-    background-size: cover;
-    height: 50vh;
-    background-position: top;
-}
-.banner-product__title{
-    font-size: 1.6rem;
-    padding-top: 0.9rem;
-    font-weight: 700;
+  font-size: 1rem;
+  padding-right: 5px;
 }
 
 @media (min-width: 992px) {
-    .nav-item {
-        font-size: 1.1rem;
-    }
-    .dropdown-item {
-        font-size: 0.9rem;
-    }
-    .home-info_title {
-        font-size: 1rem;
-    }
-    .home-info_text {
-        font-size: 0.8rem;
-    }
-    .home-blog-title {
-        font-size: 2rem;
-    }
-    .menu-footer-title {
-        margin-left: 1.8rem;
-        font-weight: 700;
-        font-size: 1.1rem;
-    }
-    .banner-productos-perros {
-        background-image: url(../img/banner-perritos.jpg);
-        background-size: cover;
-        background-position: top;
-        height: 80vh;
-    }
-.banner-product__title {
-        font-size: 3.4rem;
-        padding-top: 2rem;
-        font-weight: 700;
-        padding-left: 9rem;
-        padding-right: 9rem;
-    }
-    .banner-productos-gatos {
-        padding-top: 3rem;
-        padding-bottom: 4rem;
-    }
+  .menu-footer-title {
+    margin-left: 1.8rem;
+    font-weight: 700;
+    font-size: 1.1rem;
+  }
 }
+.form-control {
+  font-size: 0.8rem;
+}
+
+.navbar-toggler {
+  font-size: 1rem;
+}
+
+.nav-item {
+  font-size: 0.9rem;
+}
+
+.dropdown-item {
+  font-size: 0.8rem;
+}
+
+@media (min-width: 992px) {
+  .nav-item {
+    font-size: 1.1rem;
+  }
+  .dropdown-item {
+    font-size: 0.9rem;
+  }
+}
+.home-products {
+  padding-top: 3rem;
+}
+
+.home-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.card-product {
+  margin-bottom: 3rem;
+}
+
+.card-product-title {
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.card-product-brand {
+  font-size: 0.7rem;
+  color: var(--color-spa);
+  font-weight: 600;
+}
+
+.card-product-price {
+  display: block;
+  font-size: 0.9rem;
+  color: var(--color-light-gray);
+}
+
+.btn-primary {
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+  background: var(--color-bold-pink);
+  border-color: var(--color-light-pink);
+  color: #fff;
+  font-weight: 500;
+  font-size: 0.8rem;
+}
+
+.btn-primary:hover {
+  background: var(--color-light-pink);
+  color: var(--color-bold-gray);
+  border-color: var(--color-bold-pink);
+}
+
+.home-info {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  background: #f7f7f7;
+  margin-top: 4rem;
+}
+
+.fa, .fas {
+  font-weight: 900;
+  font-size: 1.5rem;
+  color: var(--color-bold-pink);
+}
+
+.home-info_title {
+  font-size: 0.9rem;
+  color: var(--color-spa);
+}
+
+.home-info_text {
+  font-size: 0.7rem;
+  color: var(--color-bold-pink);
+  font-weight: 600;
+  display: block;
+  line-height: 12px;
+}
+
+.home-info_enlace {
+  font-size: 0.7rem;
+  color: var(--color-bold-pink);
+  font-weight: 600;
+}
+
+.home-blog {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.home-blog-title {
+  font-size: 1.7rem;
+}
+
+.card-blog {
+  border: 1px solid var(--color-light-pink);
+  border-radius: 10px;
+}
+
+.blog-text {
+  font-size: 0.9rem;
+  text-align: justify;
+}
+
+@media (min-width: 992px) {
+  .home-info_title {
+    font-size: 1rem;
+  }
+  .home-info_text {
+    font-size: 0.8rem;
+  }
+  .home-blog-title {
+    font-size: 2rem;
+  }
+  .banner-product__title {
+    font-size: 3.4rem;
+    padding-top: 2rem;
+    font-weight: 700;
+    padding-left: 9rem;
+    padding-right: 9rem;
+  }
+}
+@media (min-width: 992px) {
+  .banner-productos-gatos {
+    padding-top: 3rem;
+    padding-bottom: 4rem;
+  }
+}
+.banner-productos-perros {
+  background-image: url(../img/banner-perritos.jpg);
+  background-size: cover;
+  height: 50vh;
+  background-position: top;
+}
+
+.banner-product__title {
+  font-size: 1.6rem;
+  padding-top: 0.9rem;
+  font-weight: 700;
+}
+
+@media (min-width: 992px) {
+  .banner-productos-perros {
+    height: 80vh;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

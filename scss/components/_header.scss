@@ -1,0 +1,21 @@
+.form-control{
+    font-size: 0.8rem;
+}
+.navbar-toggler {
+    font-size: 1rem;
+}
+.nav-item {
+    font-size: 0.9rem;
+}
+.dropdown-item {
+    font-size: 0.8rem;
+}
+
+@media (min-width: 992px) {
+    .nav-item {
+        font-size: 1.1rem;
+    }
+    .dropdown-item {
+        font-size: 0.9rem;
+    }
+}

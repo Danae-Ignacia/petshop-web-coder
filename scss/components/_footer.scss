@@ -1,0 +1,27 @@
+
+.footer {
+    background: var(--color-light-gray);
+    color: #fff;
+    font-weight: 500;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
+.menu-footer-item{
+    color:#fff;
+    text-decoration: none;
+}
+.menu-footer-item:hover{
+    text-decoration: underline;
+}
+
+.icon-footer {
+    font-size: 1rem;
+    padding-right: 5px;
+}
+@media (min-width: 992px) {
+    .menu-footer-title {
+        margin-left: 1.8rem;
+        font-weight: 700;
+        font-size: 1.1rem;
+    }
+}

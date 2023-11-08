@@ -1,0 +1,18 @@
+:root {
+    --color-bold-gray:#4f5966;
+    --color-light-gray:#6A788A;
+    --color-spa:#9fb7b7;
+    --background-light:#FFF;
+    --color-light-pink:#f6dcd7;
+    --color-bold-pink:#e9b8ac;
+    }
+    
+    body{
+        background-color: var(--background-light);
+        font-family: 'Inter', sans-serif;
+        color: var(--color-bold-gray);
+    }
+    ul,
+    ol {
+        list-style-type: none;
+    }
