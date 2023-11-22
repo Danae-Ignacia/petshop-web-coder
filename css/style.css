@@ -93,16 +93,16 @@ svg:hover .textcircle {
 .card-product {
   margin-bottom: 3rem;
 }
-.card-product-product-title {
+.card-product-title {
   font-size: 0.9rem;
   font-weight: 600;
 }
-.card-product-product-brand {
+.card-product-brand {
   font-size: 0.7rem;
   color: #9fb7b7;
   font-weight: 600;
 }
-.card-product-product-price {
+.card-product-price {
   display: block;
   font-size: 0.9rem;
   color: #6A788A;
@@ -157,16 +157,15 @@ svg:hover .textcircle {
   padding-top: 4rem;
   padding-bottom: 4rem;
 }
-.home-blog-blog-title {
+.home-blog_title {
   font-size: 1.7rem;
+  margin-bottom: 2rem;
 }
-
-.card-blog {
+.home-blog_card {
   border: 1px solid #f6dcd7;
   border-radius: 10px;
 }
-
-.blog-text {
+.home-blog_text {
   font-size: 0.9rem;
   text-align: justify;
 }
@@ -212,6 +211,44 @@ svg:hover .textcircle {
   .banner-productos-perros {
     height: 80vh;
   }
+}
+.section-blog {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.box-blog {
+  border: 1px solid #ececec;
+  text-align: center;
+  padding: 10px;
+  border-radius: 5px;
+}
+.box-blog_img {
+  width: 70%;
+}
+.box-blog_title {
+  font-size: 1.2rem;
+  margin-top: 1rem;
+}
+.box-blog_text {
+  font-size: 0.8rem;
+  text-align: justify;
+  padding-right: 0.5rem;
+  padding-left: 0.5rem;
+}
+.box-blog_enlace {
+  font-size: 0.9rem;
+  color: #6A788A;
+}
+.box-blog_icon {
+  font-size: 0.9rem;
+  padding-left: 5px;
+}
+.box-blog_titlePrincipal {
+  font-weight: 700;
+  text-align: left;
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
 }
 
 /*# sourceMappingURL=style.css.map */

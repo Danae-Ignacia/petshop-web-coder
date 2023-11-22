@@ -8,16 +8,16 @@
 
 .card-product {
     margin-bottom: 3rem;
-    &-product-title{
+    &-title{
         font-size: 0.9rem;
         font-weight: 600;
     }
-    &-product-brand{
+    &-brand{
         font-size: 0.7rem;
         color: $color-spa;
         font-weight: 600;
     }
-    &-product-price{
+    &-price{
     display: block;
     font-size: 0.9rem;
     color: $color-light-gray;
@@ -71,18 +71,18 @@
 .home-blog {
     padding-top: 4rem;
     padding-bottom: 4rem;
-&-blog-title {
+&_title {
     font-size: 1.7rem;
+    margin-bottom: 2rem;
 }
-}
-
-.card-blog {
+&_card{
     border: 1px solid $color-light-pink;
     border-radius: 10px;
 }
-.blog-text {
+&_text{
     font-size: 0.9rem;
     text-align: justify;
+}
 }
 @media (min-width: 992px) {
     .home-info_title {
